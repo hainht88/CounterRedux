@@ -13,13 +13,13 @@ export default connect(mapStateToProps)(
             <h1 className="card-header text-center">{this.props.value}</h1>
             <div className="card-body btn-group">
               <button
-                className="btn btn-primary"
+                className="btn btn-primary font-weight-bold"
                 onClick={() => this.props.dispatch(add())}
               >
                 +
               </button>
               <button
-                className="btn btn-danger"
+                className="btn btn-danger font-weight-bold"
                 onClick={() => this.props.dispatch(decrease())}
               >
                 -
