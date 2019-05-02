@@ -1,6 +1,10 @@
 import React from "react";
-import Counter from "./components/Counter";
+import Cards from "./components/Cards";
 
-const App = () => <Counter />;
+const App = () => (
+  <div className="container my-5">
+    <Cards />
+  </div>
+);
 
 export default App;
